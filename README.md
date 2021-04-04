@@ -1,5 +1,5 @@
 ## Setting Up Docker, Flask, Python and MySQL with PyCharm
-https://github.com/Parth-Gandhi96/flaskSQLDockerPyCharmIntro/actions/workflows/docker-compose-action.yml/badge.svg
+![Docker Compose Action Status](https://github.com/Parth-Gandhi96/flaskSQLDockerPyCharmIntro/actions/workflows/docker-compose-action.yml/badge.svg)
 
 **Student** : Parthkumar Anilkumar Gandhi
 
