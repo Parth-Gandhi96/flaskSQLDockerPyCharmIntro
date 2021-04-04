@@ -26,5 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build the stack
         run: docker-compose up -d
-      - name: Test
-        run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost:5000/
+      - name: dbConnection
+        run: docker run --network container:MySQL_Database appropriate/curl -s --retry 10 --retry-connrefused http://localhost:32000/
+      - name: API container running
+        run: docker run --network container:Flask_App appropriate/curl -s --retry 10 --retry-connrefused http://localhost:5000/
